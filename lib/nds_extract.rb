@@ -52,9 +52,9 @@ def movies_with_director_key(name, movies_collection)
 
   index = 0
   result = []
-    result << {:director_name => movies_collection[:title]}
-    index += 1
-  end
+  result << {:director_name => movies_collection[:title]}
+  index += 1
+
   puts result[0][:director_name]
 end
 
