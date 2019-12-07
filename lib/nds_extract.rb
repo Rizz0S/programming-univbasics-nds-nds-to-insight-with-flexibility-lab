@@ -108,10 +108,10 @@ def movies_with_directors_set(source)
     name = source[index][:name]
     movies_array = source[index][:movies]
     result << movies_with_director_key(name, movies_array)
-
+    index += 1
   end
 
-
+  result
 
 
 
