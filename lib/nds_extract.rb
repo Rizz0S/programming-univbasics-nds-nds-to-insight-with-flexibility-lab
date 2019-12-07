@@ -55,7 +55,7 @@ def movies_with_director_key(name, movies_collection)
   result << {:director_name => movies_collection[:title]}
   index += 1
 
-  puts result[0][:director_name]
+  result
 end
 
 def gross_per_studio(collection)
