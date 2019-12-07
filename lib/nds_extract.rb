@@ -57,7 +57,6 @@ def movies_with_director_key(name, movies_collection)
     result << {director_name => movies_collection[index][:title]}
     index += 1
   end
-  puts result[0]
   result
 end
 
